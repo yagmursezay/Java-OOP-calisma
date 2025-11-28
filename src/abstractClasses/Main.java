@@ -5,5 +5,15 @@ public class Main {
         WomanGameCalculator womanGameCalculator = new WomanGameCalculator();
         womanGameCalculator.hesapla();
         womanGameCalculator.gameOver();
+
+        //kullanımı
+        GameCalculator gameCalculator = new GameCalculator() {
+            @Override
+            public void hesapla() {
+
+            }
+        };
+
+
     }
 }
