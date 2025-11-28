@@ -1,7 +1,11 @@
 package abstractClasses;
 
 public class GameCalculator {
-    public void hesapla(int tip) {
+    public void hesapla() {
         System.out.println("Puanınız : 100");
+
+    }
+    public void gameOver(){
+        System.out.println("oyun bitti.");
     }
 }
