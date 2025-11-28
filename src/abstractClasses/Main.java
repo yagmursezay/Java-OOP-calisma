@@ -7,13 +7,7 @@ public class Main {
         womanGameCalculator.gameOver();
 
         //kullanımı
-        GameCalculator gameCalculator = new GameCalculator() {
-            @Override
-            public void hesapla() {
-
-            }
-        };
-
+        GameCalculator gameCalculators = new WomanGameCalculator();
 
     }
 }
