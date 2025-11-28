@@ -1,11 +1,11 @@
 package abstractClasses;
 
-public class GameCalculator {
-    public void hesapla() {
-        System.out.println("Puanınız : 100");
+public abstract class GameCalculator {
+    public abstract void hesapla();
+    //kim inherite ediyorsa hesaplayı içermek zorunda
+    //override edip kendi hesaplasını yazmak zorunda
 
-    }
-    public void gameOver(){
+    public final void gameOver(){ //gameCalculatoru kim kullanıyorsa gameoverı olduğu gibi kullanmak zorunda
         System.out.println("oyun bitti.");
     }
 }
