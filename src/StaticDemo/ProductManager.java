@@ -8,7 +8,7 @@ public class ProductManager {
         } else {
             System.out.println("Ürün bilgileri geçersizdir.");
         }
-        ProductValidator productValidator = new ProductValidator();
-        productValidator.birsey();
+        //ProductValidator productValidator = new ProductValidator();
+        //productValidator.birsey();
     }
 }
