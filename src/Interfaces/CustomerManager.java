@@ -2,7 +2,11 @@ package Interfaces;
 
 public class CustomerManager  {
 
-    ICustomerDal customerDal;
+   private ICustomerDal customerDal;
+
+    public CustomerManager(ICustomerDal customerDal ) {
+        this.customerDal = customerDal;
+    }
 
     public void add(){
         //iş kodları yazılır, müşteri adı girilmiş mi, doğru mu, veriler doğru mu gibi
