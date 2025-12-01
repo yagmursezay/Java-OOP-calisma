@@ -3,10 +3,12 @@ package StaticDemo;
 public class ProductManager {
     public void Add(Product product) {
 
-        if(ProductValidator.isValid(product)) {
+        if (ProductValidator.isValid(product)) {
             System.out.println("Eklendi.");
-        }else{
+        } else {
             System.out.println("Ürün bilgileri geçersizdir.");
         }
+        ProductValidator productValidator = new ProductValidator();
+        productValidator.birsey();
     }
 }
