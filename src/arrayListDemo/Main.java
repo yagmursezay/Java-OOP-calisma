@@ -1,4 +1,5 @@
 package arrayListDemo;
+
 import java.util.ArrayList;
 
 public class Main {
@@ -10,7 +11,14 @@ public class Main {
         sayilar.add("kayseri");
         //System.out.println(sayilar.size());
 
-        sayilar.set(2,100);
+        // sayilar.set(1,100);
+        // System.out.println(sayilar.get(1));
+        sayilar.remove(2);
         System.out.println(sayilar.get(2));
+
+        sayilar.clear(); //diziyi tamamen temizler
+        System.out.println(sayilar.get(0));
+
+
     }
 }
