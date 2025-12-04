@@ -13,12 +13,16 @@ public class Main {
 
         // sayilar.set(1,100);
         // System.out.println(sayilar.get(1));
-        sayilar.remove(2);
-        System.out.println(sayilar.get(2));
+        // sayilar.remove(2);
+        // System.out.println(sayilar.get(2));
 
-        sayilar.clear(); //diziyi tamamen temizler
-        System.out.println(sayilar.get(0));
+        // sayilar.clear(); //diziyi tamamen temizler
+        // System.out.println(sayilar.get(0));
 
+
+        for(Object i:sayilar){
+            System.out.println(i);
+        }
 
     }
 }
