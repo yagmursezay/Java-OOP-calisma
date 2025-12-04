@@ -9,6 +9,8 @@ public class Main {
         sayilar.add(10);
         sayilar.add("kayseri");
         //System.out.println(sayilar.size());
+
+        sayilar.set(2,100);
         System.out.println(sayilar.get(2));
     }
 }
