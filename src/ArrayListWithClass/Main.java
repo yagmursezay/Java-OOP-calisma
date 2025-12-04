@@ -10,6 +10,8 @@ public class Main {
         customers.add(new Customer (2, "Baran", "Gürkan"));
         customers.add(new Customer (3, "Muri", "Gürkan"));
 
-
+        for (Customer customer : customers) {
+            System.out.println(customer.firstName);
+        }
     }
 }
