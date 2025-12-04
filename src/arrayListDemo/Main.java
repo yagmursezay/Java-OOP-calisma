@@ -8,6 +8,7 @@ public class Main {
         sayilar.add(1);
         sayilar.add(10);
         sayilar.add("kayseri");
-        System.out.println(sayilar.size());
+        //System.out.println(sayilar.size());
+        System.out.println(sayilar.get(2));
     }
 }
